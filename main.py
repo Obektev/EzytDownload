@@ -26,7 +26,7 @@ def get_channel_stats(youtube, channel_ids):
 
 channel_statistics = get_channel_stats(youtube, channel_ids)
 channel_data = pd.DataFrame(channel_statistics)
-type(channel_data)
+print(channel_data.to_string())
  
 
 
